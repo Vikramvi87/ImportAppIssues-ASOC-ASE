@@ -1,5 +1,9 @@
 
-Script to get Issues from a application in AppScan on Cloud and import in AppScan Enterprise
+This script was created to get SAST issues from a specific Application in AppScan on Cloud and import in an Application in AppScan Enterprise.
+
+Requirements:
+- Account in ASOC and ASE
+- KeyPair in both solutions
 
 ```bash 
 #!/bin/bash
@@ -54,3 +58,4 @@ curl -s --header 'X-Requested-With: XMLHttpRequest' --header "Cookie: asc_sessio
 
 reportFileName=$scanName-$reportTitle
 mv $reportTitle $reportFileName
+```
