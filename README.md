@@ -7,7 +7,7 @@ Requirements:
 
 ```bash 
 #!/bin/bash
-# Connect to ASOC (AppScan on Cloud) get SAST Report and import in ASE (AppScan Enterprise). This script is set to SAST Reports. Works with ASE 10.0.5.
+# Connect to ASOC (AppScan on Cloud) get SAST Report and import in ASE (AppScan Enterprise). This script is set to SAST Reports. It was tested with ASE 10.0.5 and 10.0.6.
 # Before use, set variables ASOCkeyId, ASOCkeySecret, ASEhostname, ASEkeyId and ASEkeySecret.
 
 # How to use:
