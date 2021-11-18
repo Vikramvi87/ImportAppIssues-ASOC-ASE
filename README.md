@@ -4,7 +4,8 @@ This script was created to get SAST issues from a specific Application in AppSca
 Requirements:
 - Account in ASOC and ASE
 - KeyPair in both solutions
-
+	- ASOC Documentation: https://help.hcltechsw.com/appscan/ASoC/appseccloud_generate_api_key_cm.html	
+	- ASE - Access ASE, click in "AppScan Enterprise REST APIs" on main menu, click in "Account", click in "POST /account/apikey" and click on button "Execute Request"
 ```bash 
 #!/bin/bash
 # Connect to ASOC (AppScan on Cloud) get SAST Report and import in ASE (AppScan Enterprise). This script is set to SAST Reports. It was tested with ASE 10.0.5 and 10.0.6.
