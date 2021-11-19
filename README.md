@@ -1,5 +1,5 @@
 # ImportAppIssues from ASOC to ASE
-This script was created to get SAST issues from a specific Application in AppScan on Cloud and import in an Application in AppScan Enterprise.
+This script was created to get SAST issues from a specific Application in AppScan on Cloud and import in an Application in AppScan Enterprise (10.0.5 and 10.0.6).
 
 Requirements:
 - Account in ASOC and ASE
